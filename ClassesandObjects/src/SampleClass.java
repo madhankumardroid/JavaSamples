@@ -15,6 +15,12 @@ class Sample {
 	public void setValue(int y) {
 		System.out.println("The value to set is :"+y);
 	}
+
+	public void printValue(int y) {
+    		System.out.println("The value:"+y);
+    }
+
+
 }
 public class SampleClass {
 	public static void main(String[] args) {
